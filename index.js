@@ -2,9 +2,9 @@ var random1 = Math.floor(Math.random() * 6) + 1;
 
 var random2 = Math.floor(Math.random() * 6) + 1;
 
-var randomImage1 = "images/dice"+random1+".png";
+var randomImage1 = "dice"+random1+".png";
 
-var randomImage2 = "images/dice"+random2+".png";
+var randomImage2 = "dice"+random2+".png";
 
 var image1= document.querySelectorAll("img")[0];
 image1.setAttribute("src",randomImage1);
